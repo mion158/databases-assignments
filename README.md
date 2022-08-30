@@ -6,3 +6,4 @@
 
 from codecademy
  1. learn flask with jinja2 templates and create forms
+ 2. databases with flask
