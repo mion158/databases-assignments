@@ -1,1 +1,1 @@
-Build a tourist attraction web
+Tourist attraction site - guided project on codecademy
