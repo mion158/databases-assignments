@@ -1,6 +1,6 @@
 # database-guided projects
 
-Storing my database learning from multiple sources
+Storing databases learning from multiple sources
 
 
  from dataquest
