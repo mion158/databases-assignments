@@ -1,4 +1,8 @@
 # database-guided projects
+
+Storing my database learning from multiple sources
+
+
  from dataquest
  1. basic sql recap
  2. joining tables with sqlite - find sales data
