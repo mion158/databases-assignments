@@ -1,4 +1,4 @@
-# database-guided projects
+# database guided projects
 
 Storing databases learning from multiple sources
 
