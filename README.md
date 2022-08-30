@@ -5,4 +5,4 @@
  3. create database with postgres - crime database
 
 from codecademy
- 1. learn flask with jinjia2 templates and create forms
+ 1. learn flask with jinja2 templates and create forms
