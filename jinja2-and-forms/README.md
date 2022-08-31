@@ -1,1 +1,1 @@
-Tourist attraction site - guided project on codecademy
+Tourist attraction site
