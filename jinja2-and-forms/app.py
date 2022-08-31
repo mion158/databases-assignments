@@ -36,10 +36,9 @@ def add_location():
 
   ## Redirect to locations route function
   return redirect(url_for("locations",category=category,_external=True,_scheme='https'))
-  return render_template("locations.html")
+
 
 @app.route("/")
 def index():
   ## Redirect to locations route function
   return redirect(url_for("location",category="recommended",_external=True,_scheme='https'))
-  return render_template("locations.html")
