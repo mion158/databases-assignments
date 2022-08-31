@@ -37,7 +37,7 @@ def add_location():
   ## Redirect to locations route function
   return redirect(url_for("locations",category=category,_external=True,_scheme='https'))
 
-
+#still updating
 @app.route("/")
 def index():
   ## Redirect to locations route function
