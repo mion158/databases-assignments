@@ -14,5 +14,5 @@ from codecademy
  
  
  misc.
- 1. simple blockchain - just some basic concept
- 2. binary tree - basic concepts
+ 1. blockchain - just some basic concept
+ 2. key-value store - basic concepts using b-tree
