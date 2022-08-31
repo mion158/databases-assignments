@@ -1,14 +1,14 @@
 <!-- extend from "base.html" here -->
-{% extends "base.html" %} 
-{% block content %}
+{% extends "base.html" %}
 <!-- begin block content here -->
-
-<h1>{{ categories[category] }}</h1>
+{% block content %}
+<h1>{{categories[category]}}</h1>
 <!-- insert category here -->
+
 <div class="navbar">
   <!-- begin for loop here -->
   {%for key, value in categories.items()%}
-  <a href="{{ key }}"> {{ value }}</a>
+  <a href="{{key}}">{{value}}</a>
   <!-- set attribute and text here -->
   <!-- end for loop here -->
   {%endfor%}
@@ -22,25 +22,26 @@
   </colgroup>
   <tbody class="loctable">
     <!-- begin for loop here -->
-    {%for location in locations}
-    <tr>
-      <td class="loc">{{ location.name }}</td>
-      <!-- insert location name here -->
-      <td class="desc">{{ location.description }}</td>
-      <!-- insert location description here -->
+    {%for location in locations%}
 
+    <tr>
+      <td class="loc">{{location.name}}</td>
+      <!-- insert location name here -->
+      <td class="desc">{{location.description}}</td>
+      <!-- insert location description here -->
       <td class="btns">
         <!-- start if statement here -->
         {%if location.category in ["recommended", "tovisit"]%}
+
         <form method="POST">
           <input
             type="submit"
             class="up"
-            name="{{ location.name }}"
+            name="{{location.name}}"
             value="&#8599;"
           />
           <!-- set name attribute here -->
-          <input type="submit" class="del" name="" value="X" />
+          <input type="submit" class="del" name="{{location.name}}" value="X" />
           <!-- set name attribute here -->
         </form>
         <!-- end if statement here -->
@@ -79,9 +80,9 @@
         <!-- insert add_location description here -->
         <td>
           <!-- begin for loop here -->
-          {%for button in add_location.category}
+          {%for button in add_location.category%}
 
-          <div>{{button()}}{{ buttom.label}}</div>
+          <div>{{ button() }} {{ button.label }}</div>
           <!-- insert button here -->
           <!-- end for loop here -->
           {%endfor%}
