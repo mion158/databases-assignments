@@ -1,6 +1,6 @@
 # database guided projects
 
-Storing databases learning from multiple sources
+Storing databases learning with python from multiple sources
 
 
  from dataquest
