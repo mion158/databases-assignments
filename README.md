@@ -10,6 +10,7 @@ Storing databases learning with python from multiple sources
 
 from codecademy
  1. databases with SQLAlchemy
+ 2. pyspark sql
 
  misc.
  1. blockchain - just some basic concept
