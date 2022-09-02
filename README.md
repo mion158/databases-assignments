@@ -9,11 +9,9 @@ Storing databases learning with python from multiple sources
  3. create database with postgres - crime database
 
 from codecademy
- 1. learn flask with jinja2 templates and create forms
- 2. databases with SQLAlchemy
- 3. user database and authentication
- 
- 
+ 1. databases with SQLAlchemy
+ 2. pyspark sql
+
  misc.
  1. blockchain - just some basic concept
  2. key-value store - basic concepts using b-tree
