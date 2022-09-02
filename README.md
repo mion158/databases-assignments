@@ -9,7 +9,8 @@ Storing databases learning with python from multiple sources
  3. create database with postgres - crime database
 
 from codecademy
- 1. databases with SQLAlchemy
+ 1. databases spark sqlalchemy
+ 2. database django
  2. pyspark sql
 
  misc.
