@@ -1,1 +1,0 @@
-account database and authentication
