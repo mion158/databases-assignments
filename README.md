@@ -10,7 +10,7 @@ Storing databases learning with python from multiple sources
 
 from codecademy
  1. databases spark sqlalchemy
- 2. database django
+ 2. databases django
  2. pyspark sql
 
  misc.
