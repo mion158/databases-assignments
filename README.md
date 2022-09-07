@@ -1,4 +1,4 @@
-# databases guided projects
+# databases assignments
 
 Storing databases learning with python from multiple sources
 
